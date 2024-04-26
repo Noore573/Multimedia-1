@@ -25,3 +25,5 @@ d:\دراسة 8\C#\newtest\newtest\bin\Debug\net8.0\NAudio.Core.dll
 d:\دراسة 8\C#\newtest\newtest\bin\Debug\net8.0\NAudio.Midi.dll
 d:\دراسة 8\C#\newtest\newtest\bin\Debug\net8.0\NAudio.Wasapi.dll
 d:\دراسة 8\C#\newtest\newtest\bin\Debug\net8.0\NAudio.WinMM.dll
+d:\دراسة 8\C#\newtest\newtest\obj\Debug\net8.0\newtest.sourcelink.json
+d:\دراسة 8\C#\newtest\newtest\bin\Debug\net8.0\OxyPlot.dll

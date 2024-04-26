@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YDoAnK0QCvF41Uj9mtbxjNC9Q0SkMu/f3B/ekqmWxoirH4gKxRwvf07WCkeXpeYZf5b9qy4VybaAxaqjruGczQ==",
+  "dgSpecHash": "aRQjSNfPl//uECu5+5jPK8SciJIcrAWkuWor4I6xr7ittSMH2V9vVNoc7Rwea9Wsc2UAiVY0ZlXKvxD0ur/6og==",
   "success": true,
   "projectFilePath": "D:\\دراسة 8\\C#\\newtest\\newtest\\newtest.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\noore\\.nuget\\packages\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
     "C:\\Users\\noore\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
     "C:\\Users\\noore\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
+    "C:\\Users\\noore\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
     "C:\\Users\\noore\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\noore\\.nuget\\packages\\system.drawing.common\\8.0.3\\system.drawing.common.8.0.3.nupkg.sha512",
     "C:\\Users\\noore\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
