@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\دراسة 8\\C#\\newtest\\newtest\\newtest.csproj": {}
+    "D:\\دراسة 8\\C#+mulitmedia\\newtest\\newtest\\newtest.csproj": {}
   },
   "projects": {
-    "D:\\دراسة 8\\C#\\newtest\\newtest\\newtest.csproj": {
+    "D:\\دراسة 8\\C#+mulitmedia\\newtest\\newtest\\newtest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\دراسة 8\\C#\\newtest\\newtest\\newtest.csproj",
+        "projectUniqueName": "D:\\دراسة 8\\C#+mulitmedia\\newtest\\newtest\\newtest.csproj",
         "projectName": "newtest",
-        "projectPath": "D:\\دراسة 8\\C#\\newtest\\newtest\\newtest.csproj",
-        "packagesPath": "C:\\Users\\noore\\.nuget\\packages\\",
-        "outputPath": "D:\\دراسة 8\\C#\\newtest\\newtest\\obj\\",
+        "projectPath": "D:\\دراسة 8\\C#+mulitmedia\\newtest\\newtest\\newtest.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\دراسة 8\\C#+mulitmedia\\newtest\\newtest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\noore\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -40,12 +40,20 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Imaging": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Emgu.CV": {
               "target": "Package",
-              "version": "[4.8.1.5350, )"
+              "version": "[4.9.0.5494, )"
             },
             "MathNet.Numerics": {
               "target": "Package",
@@ -59,9 +67,17 @@
               "target": "Package",
               "version": "[2.1.2, )"
             },
+            "OxyPlot.WindowsForms": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "System.Windows.Forms": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -78,6 +94,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"

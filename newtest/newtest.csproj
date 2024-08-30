@@ -1,22 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
+    <PackageReference Include="AForge" Version="2.2.5" />
+    <PackageReference Include="AForge.Imaging" Version="2.2.5" />
+    <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
     <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
     <PackageReference Include="NAudio" Version="2.2.1" />
+    <!-- <PackageReference Include="NAudio.Gui" Version="2.2.1" /> -->
     <PackageReference Include="OxyPlot.Core" Version="2.1.2" />
+    <PackageReference Include="OxyPlot.WindowsForms" Version="2.1.2" />
     <!-- <PackageReference Include="OxyPlot.wpf" Version="2.1.2" /> -->
     <!-- <PackageReference Include="OxyPlot.WindowsForms" Version="2.1.2" /> -->
     <PackageReference Include="System.Drawing.Common" Version="8.0.3" />
+    <PackageReference Include="System.Windows.Forms" Version="2.0.0.0" />
   </ItemGroup>
+
 
 </Project>
