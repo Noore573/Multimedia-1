@@ -41,8 +41,8 @@ Welcome to the **Multimedia Handling Repository**, a collection of powerful C# c
 ### 1️⃣ Clone the Repository  
 
 ```bash  
-git clone https://github.com/your-repo/multimedia-handling.git  
-cd multimedia-handling  
+git clone https://github.com/Noore573/Multimedia-1.git
+cd Multimedia-1  
 ```  
 
 ### 2️⃣ Set Up Your Environment  
